@@ -2,7 +2,6 @@
 import { Card } from "@/components/ui/card";
 import { SectionTitle } from "@/components/ui/section-title";
 import { TechnologyIcon } from "@/components/ui/tech-icon";
-import { siteContentSectionKeys } from "@/lib/site-content-i18n";
 import type { Technology } from "@/types/site-content";
 
 type HomeTechnologiesSectionProps = {
@@ -15,9 +14,9 @@ export async function HomeTechnologiesSection({ technologies }: HomeTechnologies
   return (
     <section className="space-y-8">
       <SectionTitle
-        eyebrow={tContent(siteContentSectionKeys.home.technologies.eyebrow)}
-        title={tContent(siteContentSectionKeys.home.technologies.title)}
-        description={tContent(siteContentSectionKeys.home.technologies.description)}
+        eyebrow={tContent("sections.home.technologies.eyebrow")}
+        title={tContent("sections.home.technologies.title")}
+        description={tContent("sections.home.technologies.description")}
       />
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {technologies.map((tech) => (

@@ -150,14 +150,14 @@
         "impact": "Chịu tải với nhiều người dung thực hiện booking 1 lúc"
       },
       "careerlog": {
-        "name": "CareerLog Blog Engine",
-        "summary": "Blog engine cho lập trình viên với taxonomy theo chủ đề và trang tối ưu SEO.",
-        "impact": "Tăng 2.4x lượt đọc tự nhiên sau 2 tháng."
+        "name": "wed bán máy tính",
+        "summary": "tạo 1 wed size thương mại điện tử cơ bản",
+        "impact": "thực hiện đúng nghiệp vụ"
       },
       "teamflow": {
-        "name": "TeamFlow Automation",
-        "summary": "Tự động hóa code review pipeline, preview deployment và QA checklist cho product team.",
-        "impact": "Rút ngắn release cycle từ 5 ngày xuống 2 ngày."
+        "name": "Machine learning predicts plant diseases.",
+        "summary": "Tự động đự đoán bênh cây trông khi đưa ảnh lá cây vào",
+        "impact": "model từ training dự đoán đúng lên tới 80%"
       },
       "interviewBooster": {
         "name": "Interview Booster",
@@ -182,18 +182,18 @@
         "readTime": "7 phút đọc"
       }
     },
-    "journey": {
+    "careerJourney": {
+      "student": {
+        "title": "Sinh viên Công nghệ Thông tin",
+        "description": "Bắt đầu học các kiến thức lập trình cơ bản và xây dựng các dự án web nhỏ bằng HTML, CSS và JavaScript."
+      },
+      "intern": {
+        "title": "Thực tập sinh Frontend / Tự học lập trình",
+        "description": "Thực hiện các dự án cá nhân và học thuật với React và Next.js, tập trung vào xây dựng UI component tái sử dụng và tích hợp API cơ bản."
+      },
       "junior": {
-        "title": "Junior Frontend Developer",
-        "description": "Bắt đầu với React và học cách triển khai giao diện production-ready cho SaaS."
-      },
-      "fullstack": {
-        "title": "Full-stack Engineer",
-        "description": "Mở rộng sang backend API và tối ưu hiệu năng hệ thống cho các tính năng cốt lõi."
-      },
-      "blogger": {
-        "title": "Tech Blogger và Mentor",
-        "description": "Chia sẻ kiến thức Next.js, TypeScript và code quality, đồng thời mentor dev mới."
+        "title": "Định hướng Full-stack Developer",
+        "description": "Không ngừng cải thiện kỹ năng frontend và backend thông qua việc xây dựng dự án thực tế và học các best practices trong phát triển phần mềm."
       }
     },
     "labels": {
@@ -493,18 +493,18 @@
     "journey": [
       {
         "year": "2022",
-        "titleKey": "journey.junior.title",
-        "descriptionKey": "journey.junior.description"
+        "titleKey": "careerJourney.student.title",
+        "descriptionKey": "careerJourney.student.description"
       },
       {
         "year": "2024",
-        "titleKey": "journey.fullstack.title",
-        "descriptionKey": "journey.fullstack.description"
+        "titleKey": "careerJourney.intern.title",
+        "descriptionKey": "careerJourney.intern.description"
       },
       {
         "year": "2026",
-        "titleKey": "journey.blogger.title",
-        "descriptionKey": "journey.blogger.description"
+        "titleKey": "careerJourney.junior.title",
+        "descriptionKey": "careerJourney.junior.description"
       }
     ]
   }

@@ -12,7 +12,7 @@ export async function SiteFooter() {
     <footer className="border-t border-white/70 bg-white/55 backdrop-blur">
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-3 px-4 py-6 text-sm text-slate-600 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
         <p>
-          � {new Date().getFullYear()} {profile.brandName}. {tFooter("builtWith")}
+           {new Date().getFullYear()} {profile.brandName}. {tFooter("builtWith")}
         </p>
         <div className="flex items-center gap-4">
           <Link href="/about" className="transition-colors hover:text-sky-700">

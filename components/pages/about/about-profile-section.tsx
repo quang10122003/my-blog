@@ -1,7 +1,6 @@
 ﻿import { getTranslations } from "next-intl/server";
 import { Card } from "@/components/ui/card";
 import { SectionTitle } from "@/components/ui/section-title";
-import { siteContentSectionKeys } from "@/lib/site-content-i18n";
 import type { Profile } from "@/types/site-content";
 
 type AboutProfileSectionProps = {
@@ -14,9 +13,9 @@ export async function AboutProfileSection({ profile }: AboutProfileSectionProps)
   return (
     <>
       <SectionTitle
-        eyebrow={tContent(siteContentSectionKeys.about.intro.eyebrow)}
-        title={tContent(siteContentSectionKeys.about.intro.title)}
-        description={tContent(siteContentSectionKeys.about.intro.description)}
+        eyebrow={tContent("sections.about.intro.eyebrow")}
+        title={tContent("sections.about.intro.title")}
+        description={tContent("sections.about.intro.description")}
       />
 
       <Card className="p-8">

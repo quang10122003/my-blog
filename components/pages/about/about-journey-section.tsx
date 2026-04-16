@@ -1,7 +1,6 @@
 ﻿import { getTranslations } from "next-intl/server";
 import { Card } from "@/components/ui/card";
 import { SectionTitle } from "@/components/ui/section-title";
-import { siteContentSectionKeys } from "@/lib/site-content-i18n";
 import type { JourneyItem } from "@/types/site-content";
 
 type AboutJourneySectionProps = {
@@ -13,7 +12,7 @@ export async function AboutJourneySection({ journey }: AboutJourneySectionProps)
 
   return (
     <section className="space-y-6">
-      <SectionTitle title={tContent(siteContentSectionKeys.about.journey.title)} />
+      <SectionTitle title={tContent("sections.about.journey.title")} />
       <div className="grid gap-4">
         {journey.map((item) => (
           <Card key={item.year} className="p-5 sm:p-6">

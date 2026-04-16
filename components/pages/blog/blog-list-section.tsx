@@ -1,7 +1,6 @@
 ﻿import { getTranslations } from "next-intl/server";
 import { Card } from "@/components/ui/card";
 import { SectionTitle } from "@/components/ui/section-title";
-import { siteContentSectionKeys } from "@/lib/site-content-i18n";
 import type { BlogPost } from "@/types/site-content";
 
 type BlogListSectionProps = {
@@ -14,9 +13,9 @@ export async function BlogListSection({ posts }: BlogListSectionProps) {
   return (
     <>
       <SectionTitle
-        eyebrow={tContent(siteContentSectionKeys.blog.list.eyebrow)}
-        title={tContent(siteContentSectionKeys.blog.list.title)}
-        description={tContent(siteContentSectionKeys.blog.list.description)}
+        eyebrow={tContent("sections.blog.list.eyebrow")}
+        title={tContent("sections.blog.list.title")}
+        description={tContent("sections.blog.list.description")}
       />
 
       <div className="grid gap-5 md:grid-cols-2">

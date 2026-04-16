@@ -145,24 +145,24 @@
     },
     "projects": {
       "devpulse": {
-        "name": "DevPulse Dashboard",
-        "summary": "KPI tracking platform for software projects with real-time charts and smart alerts.",
-        "impact": "Reduced sprint reporting time by 37%."
+        "name": "Movie Booking Platform",
+        "summary": "A platform for booking movie tickets online.",
+        "impact": "Handles high concurrency with multiple users booking simultaneously."
       },
       "careerlog": {
-        "name": "CareerLog Blog Engine",
-        "summary": "Personal developer blogging engine with topic taxonomy and SEO-ready pages.",
-        "impact": "Increased organic readership by 2.4x after two months."
+        "name": "Computer E-commerce Website",
+        "summary": "A basic e-commerce website for selling computers.",
+        "impact": "Implements core business logic and shopping flow correctly."
       },
       "teamflow": {
-        "name": "TeamFlow Automation",
-        "summary": "Automated code review pipeline, preview deployment and QA checklist for product teams.",
-        "impact": "Reduced release cycle from 5 days to 2 days."
+        "name": "Plant Disease Prediction using Machine Learning",
+        "summary": "Automatically predicts plant diseases by analyzing leaf images.",
+        "impact": "Achieves up to 80% accuracy on trained models."
       },
       "interviewBooster": {
         "name": "Interview Booster",
-        "summary": "Technical interview training app with level-based questions and rubric feedback.",
-        "impact": "Helped 150+ juniors become more confident in interviews."
+        "summary": "A technical interview training app with level-based questions and structured feedback.",
+        "impact": "Helped over 150 beginners gain confidence in interviews."
       }
     },
     "blogPosts": {
@@ -182,18 +182,18 @@
         "readTime": "7 min read"
       }
     },
-    "journey": {
+    "careerJourney": {
+      "student": {
+        "title": "Computer Science Student",
+        "description": "Started learning programming fundamentals and built small web projects using HTML, CSS and JavaScript."
+      },
+      "intern": {
+        "title": "Frontend Intern / Self-taught Developer",
+        "description": "Worked on personal and academic projects using React and Next.js, focusing on building reusable UI components and basic API integration."
+      },
       "junior": {
-        "title": "Junior Frontend Developer",
-        "description": "Started with React and learned to deliver production-ready UI for SaaS products."
-      },
-      "fullstack": {
-        "title": "Full-stack Engineer",
-        "description": "Expanded to backend APIs and system-wide performance optimization for core features."
-      },
-      "blogger": {
-        "title": "Tech Blogger and Mentor",
-        "description": "Share knowledge on Next.js, TypeScript and code quality while mentoring new developers."
+        "title": "Aspiring Full-stack Developer",
+        "description": "Continuously improving skills in both frontend and backend development, building real-world projects and learning best practices in software development."
       }
     },
     "labels": {
@@ -490,22 +490,22 @@
         "href": "/blog"
       }
     ],
-    "journey": [
-      {
-        "year": "2022",
-        "titleKey": "journey.junior.title",
-        "descriptionKey": "journey.junior.description"
-      },
-      {
-        "year": "2024",
-        "titleKey": "journey.fullstack.title",
-        "descriptionKey": "journey.fullstack.description"
-      },
-      {
-        "year": "2026",
-        "titleKey": "journey.blogger.title",
-        "descriptionKey": "journey.blogger.description"
-      }
-    ]
+   "journey": [
+    {
+      "year": "2022",
+      "titleKey": "careerJourney.student.title",
+      "descriptionKey": "careerJourney.student.description"
+    },
+    {
+      "year": "2024",
+      "titleKey": "careerJourney.intern.title",
+      "descriptionKey": "careerJourney.intern.description"
+    },
+    {
+      "year": "2026",
+      "titleKey": "careerJourney.junior.title",
+      "descriptionKey": "careerJourney.junior.description"
+    }
+  ]
   }
 }

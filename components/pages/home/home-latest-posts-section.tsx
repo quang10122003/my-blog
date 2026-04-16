@@ -2,7 +2,6 @@
 import { ButtonLink } from "@/components/ui/button-link";
 import { Card } from "@/components/ui/card";
 import { SectionTitle } from "@/components/ui/section-title";
-import { siteContentActionKeys, siteContentSectionKeys } from "@/lib/site-content-i18n";
 import type { BlogPost } from "@/types/site-content";
 
 type HomeLatestPostsSectionProps = {
@@ -15,9 +14,9 @@ export async function HomeLatestPostsSection({ posts }: HomeLatestPostsSectionPr
   return (
     <section className="space-y-8">
       <SectionTitle
-        eyebrow={tContent(siteContentSectionKeys.home.latestPosts.eyebrow)}
-        title={tContent(siteContentSectionKeys.home.latestPosts.title)}
-        description={tContent(siteContentSectionKeys.home.latestPosts.description)}
+        eyebrow={tContent("sections.home.latestPosts.eyebrow")}
+        title={tContent("sections.home.latestPosts.title")}
+        description={tContent("sections.home.latestPosts.description")}
       />
       <div className="grid gap-5 md:grid-cols-2">
         {posts.map((post) => (
@@ -30,7 +29,7 @@ export async function HomeLatestPostsSection({ posts }: HomeLatestPostsSectionPr
             <div className="flex flex-wrap items-center justify-between gap-3">
               <span className="rounded-full bg-sky-50 px-3 py-1 text-xs font-semibold text-sky-700">{tContent(post.readTimeKey)}</span>
               <ButtonLink href={post.href} variant="ghost" size="sm">
-                {tContent(siteContentActionKeys.readMore)}
+                {tContent("actions.readMore")}
               </ButtonLink>
             </div>
           </Card>

@@ -1,7 +1,6 @@
 ﻿import { getTranslations } from "next-intl/server";
 import { Card } from "@/components/ui/card";
 import { SectionTitle } from "@/components/ui/section-title";
-import { siteContentSectionKeys } from "@/lib/site-content-i18n";
 import type { Project } from "@/types/site-content";
 
 type HomeFeaturedProjectsSectionProps = {
@@ -14,9 +13,9 @@ export async function HomeFeaturedProjectsSection({ projects }: HomeFeaturedProj
   return (
     <section className="space-y-8">
       <SectionTitle
-        eyebrow={tContent(siteContentSectionKeys.home.featuredProjects.eyebrow)}
-        title={tContent(siteContentSectionKeys.home.featuredProjects.title)}
-        description={tContent(siteContentSectionKeys.home.featuredProjects.description)}
+        eyebrow={tContent("sections.home.featuredProjects.eyebrow")}
+        title={tContent("sections.home.featuredProjects.title")}
+        description={tContent("sections.home.featuredProjects.description")}
       />
       <div className="grid gap-5 md:grid-cols-3">
         {projects.map((project) => (

@@ -2,7 +2,6 @@
 import { ButtonLink } from "@/components/ui/button-link";
 import { Card } from "@/components/ui/card";
 import { SectionTitle } from "@/components/ui/section-title";
-import { siteContentSectionKeys } from "@/lib/site-content-i18n";
 import type { Project } from "@/types/site-content";
 
 type ProjectsListSectionProps = {
@@ -15,9 +14,9 @@ export async function ProjectsListSection({ projects }: ProjectsListSectionProps
   return (
     <>
       <SectionTitle
-        eyebrow={tContent(siteContentSectionKeys.projects.list.eyebrow)}
-        title={tContent(siteContentSectionKeys.projects.list.title)}
-        description={tContent(siteContentSectionKeys.projects.list.description)}
+        eyebrow={tContent("sections.projects.list.eyebrow")}
+        title={tContent("sections.projects.list.title")}
+        description={tContent("sections.projects.list.description")}
       />
 
       <div className="grid gap-5 lg:grid-cols-2">

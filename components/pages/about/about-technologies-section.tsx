@@ -2,7 +2,6 @@
 import { Card } from "@/components/ui/card";
 import { SectionTitle } from "@/components/ui/section-title";
 import { TechnologyIcon } from "@/components/ui/tech-icon";
-import { siteContentSectionKeys } from "@/lib/site-content-i18n";
 import type { Technology } from "@/types/site-content";
 
 type AboutTechnologiesSectionProps = {
@@ -15,8 +14,8 @@ export async function AboutTechnologiesSection({ technologies }: AboutTechnologi
   return (
     <section className="space-y-6">
       <SectionTitle
-        title={tContent(siteContentSectionKeys.about.technologies.title)}
-        description={tContent(siteContentSectionKeys.about.technologies.description)}
+        title={tContent("sections.about.technologies.title")}
+        description={tContent("sections.about.technologies.description")}
       />
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {technologies.slice(0, 6).map((tech) => (
