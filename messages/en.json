@@ -1,0 +1,511 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cta": "Explore projects",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchLocale": "Language"
+  },
+  "Footer": {
+    "builtWith": "Built with Next.js + Tailwind v4."
+  },
+  "ContactPage": {
+    "eyebrow": "Contact Booking",
+    "title": "Book a consultation call",
+    "description": "Share your project basics and Minh will reach out to discuss scope, timeline and budget.",
+    "asideTitle": "How it works",
+    "asideItem1Title": "1. Review request",
+    "asideItem1Desc": "I review your form and confirm within 24 hours.",
+    "asideItem2Title": "2. Discovery call",
+    "asideItem2Desc": "A 30-minute call to align goals and priorities.",
+    "asideItem3Title": "3. Proposal",
+    "asideItem3Desc": "You receive an implementation plan, timeline and estimate."
+  },
+  "ContactForm": {
+    "fullName": "Full name",
+    "email": "Email",
+    "phone": "Phone number",
+    "date": "Preferred date",
+    "service": "Service",
+    "attendees": "Attendees",
+    "message": "Brief message",
+    "agree": "I agree to share my contact information for consultation",
+    "submit": "Submit booking",
+    "submitting": "Submitting...",
+    "success": "Booking submitted successfully. Minh will contact you soon.",
+    "servicePlaceholder": "Select a service",
+    "serviceOption1": "Personal website consulting",
+    "serviceOption2": "Landing page development",
+    "serviceOption3": "Codebase refactor",
+    "serviceOption4": "1-1 mentoring",
+    "errors": {
+      "fullNameRequired": "Please enter your full name",
+      "fullNameMin": "Name must have at least 2 characters",
+      "emailRequired": "Please enter your email",
+      "emailInvalid": "Invalid email format",
+      "phoneRequired": "Please enter your phone number",
+      "phoneInvalid": "Invalid phone number",
+      "dateRequired": "Please choose a booking date",
+      "serviceRequired": "Please select a service",
+      "attendeesRequired": "Please enter attendee count",
+      "attendeesMin": "At least 1 attendee is required",
+      "messageRequired": "Please describe your request",
+      "messageMin": "Message must have at least 10 characters",
+      "agreeRequired": "You must agree before submitting"
+    }
+  },
+  "SiteContent": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "profile": {
+      "role": "Full-stack Developer",
+      "heroTitle": "Build modern, fast and scalable web products for startup teams.",
+      "heroDescription": "I focus on Next.js, TypeScript and sustainable product architecture. This is where I share career journey, real projects and practical lessons.",
+      "aboutIntro": "I am a full-stack developer who enjoys solving problems from UI/UX to backend architecture while improving delivery workflows.",
+      "aboutParagraph1": "I build products with clarity, scalability and onboarding friendliness in mind.",
+      "aboutParagraph2": "Besides work, I write technical posts, mentor junior developers and build side projects for the dev community.",
+      "location": "Ho Chi Minh City, Vietnam",
+      "ctaPrimaryText": "View featured projects",
+      "ctaSecondaryText": "Read more about me"
+    },
+    "heroStats": {
+      "projects": "Internal and freelance projects delivered",
+      "experience": "Years building web products",
+      "community": "Technical posts for the community"
+    },
+    "skills": {
+      "frontend": {
+        "title": "Frontend Engineering",
+        "description": "Build React and Next.js interfaces focused on performance, scale and user experience."
+      },
+      "backend": {
+        "title": "Backend API",
+        "description": "Design clear APIs, optimize queries and deliver reliable business flows for web products."
+      },
+      "systemDesign": {
+        "title": "System Design",
+        "description": "Standardize architecture, logging, testing and release process for safe scaling."
+      }
+    },
+    "technologies": {
+      "nextjs": {
+        "name": "Next.js 16",
+        "category": "Framework",
+        "description": "App Router and Server Components with strong rendering and routing optimizations."
+      },
+      "react": {
+        "name": "React 19",
+        "category": "UI Library",
+        "description": "Composable UI architecture and scalable component patterns."
+      },
+      "typescript": {
+        "name": "TypeScript",
+        "category": "Language",
+        "description": "Typed contracts that improve clarity and reduce runtime errors."
+      },
+      "tailwind": {
+        "name": "Tailwind CSS v4",
+        "category": "Styling",
+        "description": "Rapid interface development with consistent design tokens."
+      },
+      "redux": {
+        "name": "Redux Toolkit",
+        "category": "State Management",
+        "description": "Structured state management for complex flows with less boilerplate."
+      },
+      "nodejs": {
+        "name": "Node.js",
+        "category": "Runtime",
+        "description": "Reliable backend APIs and automation for web systems."
+      },
+      "java": {
+        "name": "Java",
+        "category": "Backend",
+        "description": "Stable backend services designed for scale and maintainability."
+      },
+      "mysql": {
+        "name": "MySQL",
+        "category": "Database",
+        "description": "Relational database optimized for web application workloads."
+      },
+      "githubActions": {
+        "name": "GitHub Actions",
+        "category": "CI/CD",
+        "description": "Automated build, test and deployment workflows."
+      }
+    },
+    "projects": {
+      "devpulse": {
+        "name": "DevPulse Dashboard",
+        "summary": "KPI tracking platform for software projects with real-time charts and smart alerts.",
+        "impact": "Reduced sprint reporting time by 37%."
+      },
+      "careerlog": {
+        "name": "CareerLog Blog Engine",
+        "summary": "Personal developer blogging engine with topic taxonomy and SEO-ready pages.",
+        "impact": "Increased organic readership by 2.4x after two months."
+      },
+      "teamflow": {
+        "name": "TeamFlow Automation",
+        "summary": "Automated code review pipeline, preview deployment and QA checklist for product teams.",
+        "impact": "Reduced release cycle from 5 days to 2 days."
+      },
+      "interviewBooster": {
+        "name": "Interview Booster",
+        "summary": "Technical interview training app with level-based questions and rubric feedback.",
+        "impact": "Helped 150+ juniors become more confident in interviews."
+      }
+    },
+    "blogPosts": {
+      "post1": {
+        "title": "10 refactor lessons to avoid breaking production",
+        "excerpt": "A practical checklist from baseline snapshot and feature flags to phased rollout.",
+        "readTime": "8 min read"
+      },
+      "post2": {
+        "title": "Optimizing Next.js App Router for a personal blog",
+        "excerpt": "How to organize routes, components and metadata for a lightweight and scalable blog.",
+        "readTime": "6 min read"
+      },
+      "post3": {
+        "title": "A TypeScript roadmap for frontend developers",
+        "excerpt": "A six-week path focused on types, generics, typed APIs and real project practice.",
+        "readTime": "7 min read"
+      }
+    },
+    "journey": {
+      "junior": {
+        "title": "Junior Frontend Developer",
+        "description": "Started with React and learned to deliver production-ready UI for SaaS products."
+      },
+      "fullstack": {
+        "title": "Full-stack Engineer",
+        "description": "Expanded to backend APIs and system-wide performance optimization for core features."
+      },
+      "blogger": {
+        "title": "Tech Blogger and Mentor",
+        "description": "Share knowledge on Next.js, TypeScript and code quality while mentoring new developers."
+      }
+    },
+    "labels": {
+      "stack": {
+        "nextjs": "Next.js",
+        "typescript": "TypeScript",
+        "mysql": "MySQL",
+        "redis": "Redis",
+        "mdx": "MDX",
+        "tailwind": "Tailwind CSS",
+        "vercel": "Vercel",
+        "java": "Java",
+        "springBoot": "Spring Boot",
+        "githubActions": "GitHub Actions",
+        "react": "React",
+        "express": "Express",
+        "prisma": "Prisma"
+      },
+      "tags": {
+        "refactor": "Refactor",
+        "architecture": "Architecture",
+        "teamwork": "Teamwork",
+        "nextjs": "Next.js",
+        "performance": "Performance",
+        "typescript": "TypeScript",
+        "career": "Career"
+      }
+    },
+    "sections": {
+      "home": {
+        "skills": {
+          "eyebrow": "Core Skills",
+          "title": "Engineering foundation",
+          "description": "Full-stack capabilities for modern products"
+        },
+        "technologies": {
+          "eyebrow": "Tech Stack",
+          "title": "Technologies I use",
+          "description": "Tools and platforms I use frequently"
+        },
+        "featuredProjects": {
+          "eyebrow": "Featured Works",
+          "title": "Featured projects",
+          "description": "Selected products and implementations"
+        },
+        "latestPosts": {
+          "eyebrow": "Blog",
+          "title": "Latest posts",
+          "description": "Practical programming notes and lessons"
+        }
+      },
+      "about": {
+        "intro": {
+          "eyebrow": "About Me",
+          "title": "About me",
+          "description": "A quick overview of my background"
+        },
+        "technologies": {
+          "title": "Preferred technologies",
+          "description": "Tech stack I use most often"
+        },
+        "journey": {
+          "title": "Career journey"
+        }
+      },
+      "projects": {
+        "list": {
+          "eyebrow": "Portfolio",
+          "title": "Projects delivered",
+          "description": "Product work across multiple domains"
+        }
+      },
+      "blog": {
+        "list": {
+          "eyebrow": "Blog",
+          "title": "Engineering notes",
+          "description": "Short posts based on practical experience"
+        }
+      }
+    },
+    "actions": {
+      "readMore": "Read more ->"
+    }
+  },
+  "SiteData": {
+    "profile": {
+      "name": "Xuân Quang",
+      "brandName": "Quang.dev",
+      "roleKey": "profile.role",
+      "heroTitleKey": "profile.heroTitle",
+      "heroDescriptionKey": "profile.heroDescription",
+      "aboutIntroKey": "profile.aboutIntro",
+      "aboutParagraphKeys": [
+        "profile.aboutParagraph1",
+        "profile.aboutParagraph2"
+      ],
+      "locationKey": "profile.location",
+      "email": "Quang.dev@example.com",
+      "ctaPrimaryTextKey": "profile.ctaPrimaryText",
+      "ctaPrimaryHref": "/projects",
+      "ctaSecondaryTextKey": "profile.ctaSecondaryText",
+      "ctaSecondaryHref": "/about"
+    },
+    "navLinks": [
+      {
+        "href": "/",
+        "labelKey": "nav.home"
+      },
+      {
+        "href": "/about",
+        "labelKey": "nav.about"
+      },
+      {
+        "href": "/projects",
+        "labelKey": "nav.projects"
+      },
+      {
+        "href": "/blog",
+        "labelKey": "nav.blog"
+      },
+      {
+        "href": "/contact",
+        "labelKey": "nav.contact"
+      }
+    ],
+    "heroStats": [
+      {
+        "value": "10+",
+        "labelKey": "heroStats.projects"
+      },
+      {
+        "value": "1 years",
+        "labelKey": "heroStats.experience"
+      },
+      {
+        "value": "150+",
+        "labelKey": "heroStats.community"
+      }
+    ],
+    "skills": [
+      {
+        "titleKey": "skills.frontend.title",
+        "descriptionKey": "skills.frontend.description"
+      },
+      {
+        "titleKey": "skills.backend.title",
+        "descriptionKey": "skills.backend.description"
+      },
+      {
+        "titleKey": "skills.systemDesign.title",
+        "descriptionKey": "skills.systemDesign.description"
+      }
+    ],
+    "SectionTitleProject": {
+      "title": "SectionTitleProject.title",
+      "description": "SectionTitleProject.desc"
+    },
+    "technologies": [
+      {
+        "nameKey": "technologies.nextjs.name",
+        "icon": "nextjs",
+        "categoryKey": "technologies.nextjs.category",
+        "descriptionKey": "technologies.nextjs.description"
+      },
+      {
+        "nameKey": "technologies.react.name",
+        "icon": "react",
+        "categoryKey": "technologies.react.category",
+        "descriptionKey": "technologies.react.description"
+      },
+      {
+        "nameKey": "technologies.typescript.name",
+        "icon": "typescript",
+        "categoryKey": "technologies.typescript.category",
+        "descriptionKey": "technologies.typescript.description"
+      },
+      {
+        "nameKey": "technologies.tailwind.name",
+        "icon": "tailwind",
+        "categoryKey": "technologies.tailwind.category",
+        "descriptionKey": "technologies.tailwind.description"
+      },
+      {
+        "nameKey": "technologies.redux.name",
+        "icon": "redux",
+        "categoryKey": "technologies.redux.category",
+        "descriptionKey": "technologies.redux.description"
+      },
+      {
+        "nameKey": "technologies.nodejs.name",
+        "icon": "nodejs",
+        "categoryKey": "technologies.nodejs.category",
+        "descriptionKey": "technologies.nodejs.description"
+      },
+      {
+        "nameKey": "technologies.java.name",
+        "icon": "java",
+        "categoryKey": "technologies.java.category",
+        "descriptionKey": "technologies.java.description"
+      },
+      {
+        "nameKey": "technologies.mysql.name",
+        "icon": "mysql",
+        "categoryKey": "technologies.mysql.category",
+        "descriptionKey": "technologies.mysql.description"
+      },
+      {
+        "nameKey": "technologies.githubActions.name",
+        "icon": "github-actions",
+        "categoryKey": "technologies.githubActions.category",
+        "descriptionKey": "technologies.githubActions.description"
+      }
+    ],
+    "projects": [
+      {
+        "nameKey": "projects.devpulse.name",
+        "summaryKey": "projects.devpulse.summary",
+        "impactKey": "projects.devpulse.impact",
+        "stackKeys": [
+          "labels.stack.githubActions",
+          "labels.stack.typescript",
+          "labels.stack.mysql",
+          "labels.stack.redis"
+        ],
+        "href": "/projects"
+      },
+      {
+        "nameKey": "projects.careerlog.name",
+        "summaryKey": "projects.careerlog.summary",
+        "impactKey": "projects.careerlog.impact",
+        "stackKeys": [
+          "labels.stack.nextjs",
+          "labels.stack.mdx",
+          "labels.stack.tailwind",
+          "labels.stack.vercel"
+        ],
+        "href": "/projects"
+      },
+      {
+        "nameKey": "projects.teamflow.name",
+        "summaryKey": "projects.teamflow.summary",
+        "impactKey": "projects.teamflow.impact",
+        "stackKeys": [
+          "labels.stack.java",
+          "labels.stack.springBoot",
+          "labels.stack.mysql",
+          "labels.stack.githubActions"
+        ],
+        "href": "/projects"
+      },
+      {
+        "nameKey": "projects.interviewBooster.name",
+        "summaryKey": "projects.interviewBooster.summary",
+        "impactKey": "projects.interviewBooster.impact",
+        "stackKeys": [
+          "labels.stack.react",
+          "labels.stack.typescript",
+          "labels.stack.express",
+          "labels.stack.prisma"
+        ],
+        "href": "/projects"
+      }
+    ],
+    "blogPosts": [
+      {
+        "titleKey": "blogPosts.post1.title",
+        "excerptKey": "blogPosts.post1.excerpt",
+        "readTimeKey": "blogPosts.post1.readTime",
+        "tagKeys": [
+          "labels.tags.refactor",
+          "labels.tags.architecture",
+          "labels.tags.teamwork"
+        ],
+        "href": "/blog"
+      },
+      {
+        "titleKey": "blogPosts.post2.title",
+        "excerptKey": "blogPosts.post2.excerpt",
+        "readTimeKey": "blogPosts.post2.readTime",
+        "tagKeys": [
+          "labels.tags.nextjs",
+          "labels.tags.performance"
+        ],
+        "href": "/blog"
+      },
+      {
+        "titleKey": "blogPosts.post3.title",
+        "excerptKey": "blogPosts.post3.excerpt",
+        "readTimeKey": "blogPosts.post3.readTime",
+        "tagKeys": [
+          "labels.tags.typescript",
+          "labels.tags.career"
+        ],
+        "href": "/blog"
+      }
+    ],
+    "journey": [
+      {
+        "year": "2022",
+        "titleKey": "journey.junior.title",
+        "descriptionKey": "journey.junior.description"
+      },
+      {
+        "year": "2024",
+        "titleKey": "journey.fullstack.title",
+        "descriptionKey": "journey.fullstack.description"
+      },
+      {
+        "year": "2026",
+        "titleKey": "journey.blogger.title",
+        "descriptionKey": "journey.blogger.description"
+      }
+    ]
+  }
+}

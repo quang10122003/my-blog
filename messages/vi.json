@@ -1,0 +1,511 @@
+{
+  "Navbar": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "projects": "Dự án",
+    "blog": "Bài viết",
+    "contact": "Liên hệ",
+    "cta": "Khám phá dự án",
+    "openMenu": "Mở menu",
+    "closeMenu": "Đóng menu",
+    "switchLocale": "Ngôn ngữ"
+  },
+  "Footer": {
+    "builtWith": "Built with Next.js + Tailwind v4."
+  },
+  "ContactPage": {
+    "eyebrow": "Contact Booking",
+    "title": "Đặt lịch tư vấn dự án",
+    "description": "Gửi thông tin cơ bản để mình liên hệ và trao đổi scope, timeline và budget phù hợp.",
+    "asideTitle": "Quy trình làm việc",
+    "asideItem1Title": "1. Nhận yêu cầu",
+    "asideItem1Desc": "Đọc nhanh thông tin form và xác nhận trong 24h.",
+    "asideItem2Title": "2. Gọi tư vấn",
+    "asideItem2Desc": "Họp 30 phút để làm rõ mục tiêu và ưu tiên.",
+    "asideItem3Title": "3. Gửi đề xuất",
+    "asideItem3Desc": "Gửi plan triển khai, timeline và estimate."
+  },
+  "ContactForm": {
+    "fullName": "Họ và tên",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "date": "Ngày muốn booking",
+    "service": "Nhu cầu",
+    "attendees": "Số người tham gia",
+    "message": "Mô tả ngắn",
+    "agree": "Tôi đồng ý để lại thông tin để được liên hệ tư vấn",
+    "submit": "Gửi booking",
+    "submitting": "Đang gửi...",
+    "success": "Đã gửi thành công. Minh sẽ liên hệ bạn sớm nhất.",
+    "servicePlaceholder": "Chọn một nhu cầu",
+    "serviceOption1": "Tư vấn website cá nhân",
+    "serviceOption2": "Xây dựng landing page",
+    "serviceOption3": "Refactor codebase",
+    "serviceOption4": "Mentor 1-1",
+    "errors": {
+      "fullNameRequired": "Vui lòng nhập họ và tên",
+      "fullNameMin": "Tên cần ít nhất 2 ký tự",
+      "emailRequired": "Vui lòng nhập email",
+      "emailInvalid": "Email không đúng định dạng",
+      "phoneRequired": "Vui lòng nhập số điện thoại",
+      "phoneInvalid": "Số điện thoại không hợp lệ",
+      "dateRequired": "Vui lòng chọn ngày booking",
+      "serviceRequired": "Vui lòng chọn nhu cầu",
+      "attendeesRequired": "Vui lòng nhập số người",
+      "attendeesMin": "Ít nhất 1 người",
+      "messageRequired": "Vui lòng mô tả ngắn nhu cầu",
+      "messageMin": "Cần ít nhất 10 ký tự",
+      "agreeRequired": "Bạn cần đồng ý trước khi gửi"
+    }
+  },
+  "SiteContent": {
+    "nav": {
+      "home": "Trang chủ",
+      "about": "Giới thiệu",
+      "projects": "Dự án",
+      "blog": "Bài viết",
+      "contact": "Liên hệ"
+    },
+    "profile": {
+      "role": "Lập trình viên Full-stack",
+      "heroTitle": "Xây dựng sản phẩm web hiện đại, nhanh và dễ mở rộng cho team startup.",
+      "heroDescription": "Mình tập trung vào Next.js, TypeScript và kiến trúc sản phẩm bền vững. Đây là nơi chia sẻ hành trình nghề nghiệp, dự án thực tế và bài học khi làm sản phẩm.",
+      "aboutIntro": "Mình là lập trình viên full-stack, thích giải quyết bài toán từ UI/UX đến backend architecture và tối ưu quy trình delivery.",
+      "aboutParagraph1": "Mình xây dựng sản phẩm theo hướng rõ ràng, dễ scale và dễ onboarding thành viên mới.",
+      "aboutParagraph2": "Ngoài công việc chính, mình viết bài kỹ thuật, mentor dev mới và làm side project cho cộng đồng.",
+      "location": "Hà nội, Việt Nam",
+      "ctaPrimaryText": "Xem dự án nổi bật",
+      "ctaSecondaryText": "Đọc thêm về mình"
+    },
+    "heroStats": {
+      "projects": "Dự án nội bộ và freelance đã triển khai",
+      "experience": "Năm kinh nghiệm phát triển web product",
+      "community": "Bài chia sẻ kỹ thuật cho cộng đồng"
+    },
+    "skills": {
+      "frontend": {
+        "title": "Frontend Engineering",
+        "description": "Xây dựng giao diện React và Next.js tập trung vào hiệu năng, khả năng mở rộng và trải nghiệm người dùng."
+      },
+      "backend": {
+        "title": "Backend API",
+        "description": "Thiết kế API rõ ràng, tối ưu truy vấn và triển khai luồng nghiệp vụ ổn định cho sản phẩm web."
+      },
+      "systemDesign": {
+        "title": "Thiết kế database",
+        "description": "Triển khai thiết kế nơi lưu trữ dữ liệu phù hợp với sản phẩm"
+      }
+    },
+    "technologies": {
+      "nextjs": {
+        "name": "Next.js 16",
+        "category": "Framework",
+        "description": "App Router và Server Components với tối ưu render và routing mạnh."
+      },
+      "react": {
+        "name": "React 19",
+        "category": "UI Library",
+        "description": "Kiến trúc UI có thể compose và pattern phù hợp giao diện lớn."
+      },
+      "typescript": {
+        "name": "TypeScript",
+        "category": "Language",
+        "description": "Typed contracts giúp code rõ ràng và giảm runtime error."
+      },
+      "tailwind": {
+        "name": "Tailwind CSS v4",
+        "category": "Styling",
+        "description": "Phát triển giao diện nhanh với design tokens thống nhất."
+      },
+      "redux": {
+        "name": "Redux Toolkit",
+        "category": "State Management",
+        "description": "Quản lý state phức tạp theo cấu trúc, giảm boilerplate."
+      },
+      "nodejs": {
+        "name": "vercel",
+        "category": "Deloy",
+        "description": "Triển khai wed lên internet"
+      },
+      "java": {
+        "name": "Java",
+        "category": "Backend",
+        "description": "Backend services ổn định, dễ bảo trì và dễ mở rộng."
+      },
+      "mysql": {
+        "name": "MySQL",
+        "category": "Database",
+        "description": "Relational database tối ưu cho web app workload."
+      },
+      "githubActions": {
+        "name": "Git Github",
+        "category": "Quản lý dự án",
+        "description": "Quản lý dự án team work cùng team"
+      }
+    },
+    "projects": {
+      "devpulse": {
+        "name": "Booking",
+        "summary": "Nền tảng đặt vé xem phim",
+        "impact": "Chịu tải với nhiều người dung thực hiện booking 1 lúc"
+      },
+      "careerlog": {
+        "name": "CareerLog Blog Engine",
+        "summary": "Blog engine cho lập trình viên với taxonomy theo chủ đề và trang tối ưu SEO.",
+        "impact": "Tăng 2.4x lượt đọc tự nhiên sau 2 tháng."
+      },
+      "teamflow": {
+        "name": "TeamFlow Automation",
+        "summary": "Tự động hóa code review pipeline, preview deployment và QA checklist cho product team.",
+        "impact": "Rút ngắn release cycle từ 5 ngày xuống 2 ngày."
+      },
+      "interviewBooster": {
+        "name": "Interview Booster",
+        "summary": "Ứng dụng luyện phỏng vấn technical với bộ câu hỏi theo level và rubric feedback.",
+        "impact": "Hỗ trợ hơn 150 bạn mới tự tin hơn khi phỏng vấn."
+      }
+    },
+    "blogPosts": {
+      "post1": {
+        "title": "10 bài học refactor để không làm gãy production",
+        "excerpt": "Checklist thực tế từ baseline snapshot, feature flag đến rollout theo từng lớp.",
+        "readTime": "8 phút đọc"
+      },
+      "post2": {
+        "title": "Tối ưu Next.js App Router cho blog cá nhân",
+        "excerpt": "Cách tổ chức route, component và metadata để blog nhẹ và dễ mở rộng.",
+        "readTime": "6 phút đọc"
+      },
+      "post3": {
+        "title": "Lộ trình học TypeScript cho frontend developer",
+        "excerpt": "Lộ trình 6 tuần tập trung vào type, generic, typed API và dự án thực tế.",
+        "readTime": "7 phút đọc"
+      }
+    },
+    "journey": {
+      "junior": {
+        "title": "Junior Frontend Developer",
+        "description": "Bắt đầu với React và học cách triển khai giao diện production-ready cho SaaS."
+      },
+      "fullstack": {
+        "title": "Full-stack Engineer",
+        "description": "Mở rộng sang backend API và tối ưu hiệu năng hệ thống cho các tính năng cốt lõi."
+      },
+      "blogger": {
+        "title": "Tech Blogger và Mentor",
+        "description": "Chia sẻ kiến thức Next.js, TypeScript và code quality, đồng thời mentor dev mới."
+      }
+    },
+    "labels": {
+      "stack": {
+        "nextjs": "Next.js",
+        "typescript": "TypeScript",
+        "mysql": "MySQL",
+        "redis": "Redis",
+        "mdx": "MDX",
+        "tailwind": "Tailwind CSS",
+        "vercel": "Vercel",
+        "java": "Java",
+        "springBoot": "Spring Boot",
+        "githubActions": "GitHub Actions",
+        "react": "React",
+        "express": "Express",
+        "prisma": "Prisma"
+      },
+      "tags": {
+        "refactor": "Refactor",
+        "architecture": "Architecture",
+        "teamwork": "Teamwork",
+        "nextjs": "Next.js",
+        "performance": "Performance",
+        "typescript": "TypeScript",
+        "career": "Career"
+      }
+    },
+    "sections": {
+      "home": {
+        "skills": {
+          "eyebrow": "Kỹ năng cốt lõi",
+          "title": "Nền tảng kỹ thuật",
+          "description": "Năng lực full-stack cho sản phẩm hiện đại"
+        },
+        "technologies": {
+          "eyebrow": "Tech Stack",
+          "title": "Công nghệ sử dụng",
+          "description": "Các công nghệ mình sử dụng thường xuyên"
+        },
+        "featuredProjects": {
+          "eyebrow": "Dự án nổi bật",
+          "title": "Các dự án tiêu biểu",
+          "description": "Một số sản phẩm và bài toán đã triển khai"
+        },
+        "latestPosts": {
+          "eyebrow": "Bài viết",
+          "title": "Bài viết mới",
+          "description": "Các ghi chú thực chiến về lập trình"
+        }
+      },
+      "about": {
+        "intro": {
+          "eyebrow": "Về tôi",
+          "title": "Giới thiệu bản thân",
+          "description": "Tóm tắt nhanh về mình và định hướng làm việc"
+        },
+        "technologies": {
+          "title": "Công nghệ ưu tiên",
+          "description": "Danh sách công nghệ mình dùng nhiều nhất"
+        },
+        "journey": {
+          "title": "Hành trình phát triển"
+        }
+      },
+      "projects": {
+        "list": {
+          "eyebrow": "Portfolio",
+          "title": "Dự án đã triển khai",
+          "description": "Nhiều dự án công nghệ ở các lĩnh vực khác nhau"
+        }
+      },
+      "blog": {
+        "list": {
+          "eyebrow": "Blog",
+          "title": "Chia sẻ về IT",
+          "description": "Các bài viết ngắn, bám sát trải nghiệm thực tế"
+        }
+      }
+    },
+    "actions": {
+      "readMore": "Đọc tiếp ->"
+    }
+  },
+  "SiteData": {
+    "profile": {
+      "name": "Xuân Quang",
+      "brandName": "Quang.dev",
+      "roleKey": "profile.role",
+      "heroTitleKey": "profile.heroTitle",
+      "heroDescriptionKey": "profile.heroDescription",
+      "aboutIntroKey": "profile.aboutIntro",
+      "aboutParagraphKeys": [
+        "profile.aboutParagraph1",
+        "profile.aboutParagraph2"
+      ],
+      "locationKey": "profile.location",
+      "email": "Quang.dev@example.com",
+      "ctaPrimaryTextKey": "profile.ctaPrimaryText",
+      "ctaPrimaryHref": "/projects",
+      "ctaSecondaryTextKey": "profile.ctaSecondaryText",
+      "ctaSecondaryHref": "/about"
+    },
+    "navLinks": [
+      {
+        "href": "/",
+        "labelKey": "nav.home"
+      },
+      {
+        "href": "/about",
+        "labelKey": "nav.about"
+      },
+      {
+        "href": "/projects",
+        "labelKey": "nav.projects"
+      },
+      {
+        "href": "/blog",
+        "labelKey": "nav.blog"
+      },
+      {
+        "href": "/contact",
+        "labelKey": "nav.contact"
+      }
+    ],
+    "heroStats": [
+      {
+        "value": "10+",
+        "labelKey": "heroStats.projects"
+      },
+      {
+        "value": "1 years",
+        "labelKey": "heroStats.experience"
+      },
+      {
+        "value": "150+",
+        "labelKey": "heroStats.community"
+      }
+    ],
+    "skills": [
+      {
+        "titleKey": "skills.frontend.title",
+        "descriptionKey": "skills.frontend.description"
+      },
+      {
+        "titleKey": "skills.backend.title",
+        "descriptionKey": "skills.backend.description"
+      },
+      {
+        "titleKey": "skills.systemDesign.title",
+        "descriptionKey": "skills.systemDesign.description"
+      }
+    ],
+    "SectionTitleProject": {
+      "title": "SectionTitleProject.title",
+      "description": "SectionTitleProject.desc"
+    },
+    "technologies": [
+      {
+        "nameKey": "technologies.nextjs.name",
+        "icon": "nextjs",
+        "categoryKey": "technologies.nextjs.category",
+        "descriptionKey": "technologies.nextjs.description"
+      },
+      {
+        "nameKey": "technologies.react.name",
+        "icon": "react",
+        "categoryKey": "technologies.react.category",
+        "descriptionKey": "technologies.react.description"
+      },
+      {
+        "nameKey": "technologies.typescript.name",
+        "icon": "typescript",
+        "categoryKey": "technologies.typescript.category",
+        "descriptionKey": "technologies.typescript.description"
+      },
+      {
+        "nameKey": "technologies.tailwind.name",
+        "icon": "tailwind",
+        "categoryKey": "technologies.tailwind.category",
+        "descriptionKey": "technologies.tailwind.description"
+      },
+      {
+        "nameKey": "technologies.redux.name",
+        "icon": "redux",
+        "categoryKey": "technologies.redux.category",
+        "descriptionKey": "technologies.redux.description"
+      },
+      {
+        "nameKey": "technologies.nodejs.name",
+        "icon": "nodejs",
+        "categoryKey": "technologies.nodejs.category",
+        "descriptionKey": "technologies.nodejs.description"
+      },
+      {
+        "nameKey": "technologies.java.name",
+        "icon": "java",
+        "categoryKey": "technologies.java.category",
+        "descriptionKey": "technologies.java.description"
+      },
+      {
+        "nameKey": "technologies.mysql.name",
+        "icon": "mysql",
+        "categoryKey": "technologies.mysql.category",
+        "descriptionKey": "technologies.mysql.description"
+      },
+      {
+        "nameKey": "technologies.githubActions.name",
+        "icon": "github-actions",
+        "categoryKey": "technologies.githubActions.category",
+        "descriptionKey": "technologies.githubActions.description"
+      }
+    ],
+    "projects": [
+      {
+        "nameKey": "projects.devpulse.name",
+        "summaryKey": "projects.devpulse.summary",
+        "impactKey": "projects.devpulse.impact",
+        "stackKeys": [
+          "labels.stack.githubActions",
+          "labels.stack.typescript",
+          "labels.stack.mysql",
+          "labels.stack.redis"
+        ],
+        "href": "/projects"
+      },
+      {
+        "nameKey": "projects.careerlog.name",
+        "summaryKey": "projects.careerlog.summary",
+        "impactKey": "projects.careerlog.impact",
+        "stackKeys": [
+          "labels.stack.nextjs",
+          "labels.stack.mdx",
+          "labels.stack.tailwind",
+          "labels.stack.vercel"
+        ],
+        "href": "/projects"
+      },
+      {
+        "nameKey": "projects.teamflow.name",
+        "summaryKey": "projects.teamflow.summary",
+        "impactKey": "projects.teamflow.impact",
+        "stackKeys": [
+          "labels.stack.java",
+          "labels.stack.springBoot",
+          "labels.stack.mysql",
+          "labels.stack.githubActions"
+        ],
+        "href": "/projects"
+      },
+      {
+        "nameKey": "projects.interviewBooster.name",
+        "summaryKey": "projects.interviewBooster.summary",
+        "impactKey": "projects.interviewBooster.impact",
+        "stackKeys": [
+          "labels.stack.react",
+          "labels.stack.typescript",
+          "labels.stack.express",
+          "labels.stack.prisma"
+        ],
+        "href": "/projects"
+      }
+    ],
+    "blogPosts": [
+      {
+        "titleKey": "blogPosts.post1.title",
+        "excerptKey": "blogPosts.post1.excerpt",
+        "readTimeKey": "blogPosts.post1.readTime",
+        "tagKeys": [
+          "labels.tags.refactor",
+          "labels.tags.architecture",
+          "labels.tags.teamwork"
+        ],
+        "href": "/blog"
+      },
+      {
+        "titleKey": "blogPosts.post2.title",
+        "excerptKey": "blogPosts.post2.excerpt",
+        "readTimeKey": "blogPosts.post2.readTime",
+        "tagKeys": [
+          "labels.tags.nextjs",
+          "labels.tags.performance"
+        ],
+        "href": "/blog"
+      },
+      {
+        "titleKey": "blogPosts.post3.title",
+        "excerptKey": "blogPosts.post3.excerpt",
+        "readTimeKey": "blogPosts.post3.readTime",
+        "tagKeys": [
+          "labels.tags.typescript",
+          "labels.tags.career"
+        ],
+        "href": "/blog"
+      }
+    ],
+    "journey": [
+      {
+        "year": "2022",
+        "titleKey": "journey.junior.title",
+        "descriptionKey": "journey.junior.description"
+      },
+      {
+        "year": "2024",
+        "titleKey": "journey.fullstack.title",
+        "descriptionKey": "journey.fullstack.description"
+      },
+      {
+        "year": "2026",
+        "titleKey": "journey.blogger.title",
+        "descriptionKey": "journey.blogger.description"
+      }
+    ]
+  }
+}
