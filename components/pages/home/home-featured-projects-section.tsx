@@ -11,7 +11,7 @@ export async function HomeFeaturedProjectsSection({ projects }: HomeFeaturedProj
   const tContent = await getTranslations("SiteContent");
 
   return (
-    <section className="space-y-8">
+    <section className="space-y-8 cursor-pointer">
       <SectionTitle
         eyebrow={tContent("sections.home.featuredProjects.eyebrow")}
         title={tContent("sections.home.featuredProjects.title")}

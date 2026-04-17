@@ -467,7 +467,7 @@
           "labels.tags.architecture",
           "labels.tags.teamwork"
         ],
-        "href": "/blog"
+        "href": "/blog/refactor-production-safe"
       },
       {
         "titleKey": "blogPosts.post2.title",
@@ -477,7 +477,7 @@
           "labels.tags.nextjs",
           "labels.tags.performance"
         ],
-        "href": "/blog"
+        "href": "/blog/optimize-nextjs-app-router"
       },
       {
         "titleKey": "blogPosts.post3.title",
@@ -487,7 +487,7 @@
           "labels.tags.typescript",
           "labels.tags.career"
         ],
-        "href": "/blog"
+        "href": "/blog/typescript-roadmap-frontend"
       }
     ],
     "journey": [

@@ -8,6 +8,7 @@ import { Navbar } from "@/components/layout/navbar";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { routing } from "@/i18n/routing";
 import "@/styles/globals.css";
+import { SmoothScrollProvider } from "@/components/Scrollsmoth";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -44,20 +45,22 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
 
   return (
     <NextIntlClientProvider>
-      <div className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} flex min-h-full flex-col text-slate-900 antialiased`}>
+      <SmoothScrollProvider>
+        <div className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} flex min-h-full flex-col text-slate-900 antialiased`}>
         <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
           <BackgroundParticles />
           <div className="absolute -left-36 -top-32 h-96 w-96 rounded-full bg-sky-400/30 blur-3xl" />
           <div className="absolute -right-28 top-12 h-80 w-80 rounded-full bg-orange-300/35 blur-3xl" />
           <div className="absolute bottom-10 left-1/4 h-72 w-72 rounded-full bg-cyan-300/20 blur-3xl" />
         </div>
-
         <Navbar />
         <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col px-4 pb-16 pt-10 sm:px-6 lg:px-8">
           {children}
         </main>
         <SiteFooter />
       </div>
+      </SmoothScrollProvider>
+      
     </NextIntlClientProvider>
   );
 }

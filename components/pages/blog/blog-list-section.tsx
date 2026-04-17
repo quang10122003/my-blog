@@ -2,6 +2,7 @@
 import { Card } from "@/components/ui/card";
 import { SectionTitle } from "@/components/ui/section-title";
 import type { BlogPost } from "@/types/site-content";
+import { ButtonLink } from "@/components/ui/button-link";
 
 type BlogListSectionProps = {
   posts: BlogPost[];
@@ -29,6 +30,9 @@ export async function BlogListSection({ posts }: BlogListSectionProps) {
               ))}
             </div>
             <div className="mt-4 text-sm font-semibold text-slate-500">{tContent(post.readTimeKey)}</div>
+            <ButtonLink href={post.href} variant="ghost" size="sm" className="mt-3">
+              {tContent("actions.readMore")}
+            </ButtonLink>
           </Card>
         ))}
       </div>
