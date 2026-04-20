@@ -4,6 +4,7 @@ import { AboutJourneySection } from "@/components/pages/about/about-journey-sect
 import { AboutProfileSection } from "@/components/pages/about/about-profile-section";
 import { AboutTechnologiesSection } from "@/components/pages/about/about-technologies-section";
 import type { JourneyItem, Profile, Technology } from "@/types/site-content";
+import FadeInUpOnView from "@/components/FadeInUpOnView";
 
 export const metadata: Metadata = {
   title: "Gioi thieu | Quang Dev Blog",
@@ -18,9 +19,15 @@ export default async function AboutPage() {
 
   return (
     <div className="space-y-12">
-      <AboutProfileSection profile={profile} />
-      <AboutTechnologiesSection technologies={technologies} />
-      <AboutJourneySection journey={journey} />
+      <FadeInUpOnView>
+        <AboutProfileSection profile={profile} />
+      </FadeInUpOnView>
+      <FadeInUpOnView>
+        <AboutTechnologiesSection technologies={technologies} />
+      </FadeInUpOnView>
+      <FadeInUpOnView>
+        <AboutJourneySection journey={journey} />
+      </FadeInUpOnView>
     </div>
   );
 }

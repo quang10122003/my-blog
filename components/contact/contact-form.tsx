@@ -41,13 +41,30 @@ export function ContactForm() {
     },
   });
 
-  async function onSubmit() {
+  async function onSubmit(data: ContactFormValues) {
     setSuccessMessage(null);
-    await new Promise((resolve) => setTimeout(resolve, 600));
-    setSuccessMessage(t("success"));
-    reset();
-  }
 
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      const result = await res.json();
+
+      if (res.ok && result.success) {
+        setSuccessMessage(t("success"));
+        reset();
+      } else {
+        console.error("API ERROR:", result);
+      }
+    } catch (err) {
+      console.error("NETWORK ERROR:", err);
+    }
+  }
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
       <div className="grid gap-5 sm:grid-cols-2">

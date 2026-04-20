@@ -2,6 +2,7 @@
 import { getTranslations } from "next-intl/server";
 import { BlogListSection } from "@/components/pages/blog/blog-list-section";
 import type { BlogPost } from "@/types/site-content";
+import FadeInUpOnView from "@/components/FadeInUpOnView";
 
 export const metadata: Metadata = {
   title: "Blog | Quang Dev Blog",
@@ -14,7 +15,10 @@ export default async function BlogPage() {
 
   return (
     <div className="space-y-10">
-      <BlogListSection posts={blogPosts} />
+      <FadeInUpOnView>
+        <BlogListSection posts={blogPosts} />
+      </FadeInUpOnView>
+      
     </div>
   );
 }

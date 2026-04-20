@@ -2,6 +2,7 @@
 import { getTranslations } from "next-intl/server";
 import { ProjectsListSection } from "@/components/pages/projects/projects-list-section";
 import type { Project } from "@/types/site-content";
+import FadeInUpOnView from "@/components/FadeInUpOnView";
 
 export const metadata: Metadata = {
   title: "Du an | Quang Dev Blog",
@@ -14,7 +15,10 @@ export default async function ProjectsPage() {
 
   return (
     <div className="space-y-10">
-      <ProjectsListSection projects={projects} />
+      <FadeInUpOnView>
+        <ProjectsListSection projects={projects} />
+      </FadeInUpOnView>
+      
     </div>
   );
 }
